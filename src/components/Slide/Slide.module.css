@@ -1,0 +1,81 @@
+.wrapper {
+    width: 1024px;
+    height: 768px;
+    position: relative;
+    overflow: hidden;
+}
+
+.filmLenta {
+    display: grid;
+    width: 100%;
+    height: 300vh;
+    position: absolute;
+    transition: 0.8s;
+}
+
+.filmLenta__item {
+    width: 100%;
+    height: 100vh;
+    background: url("../Images/slide1Y.png") center center/cover no-repeat;
+}
+
+.filmLenta__item:nth-child(2) {
+    background: url("../Images/slide2Y.jpg") center center/cover no-repeat;
+}
+
+.filmLenta__item:nth-child(3) {
+    background: url("../Images/slide3X.jpg") center center/cover no-repeat;
+}
+
+/* Блок: Листайте вниз, стрелка, картинка. */
+.arrowFooter {
+    position: fixed;
+    height: 82px;
+    background: url("../Images/footerY.png") center center / cover no-repeat;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: 0.4s;
+}
+
+.arrowFooter::after {
+    content: "";
+    height: 25px;
+    width: 25px;
+    border-bottom: 3px solid whitesmoke;
+    border-left: 3px solid whitesmoke;
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: 34px;
+    left: 36px;
+    right: 0px;
+    margin: 0 auto;
+}
+
+.arrowFooter::before {
+    content: "Листайте вниз";
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    left: 46px;
+    right: 0;
+}
+
+.pulse {
+    margin:100px;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #cca92c;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    animation: pulse 2s infinite;
+}
+
+.pulse:hover {
+    animation: none;
+}
+/*end*/

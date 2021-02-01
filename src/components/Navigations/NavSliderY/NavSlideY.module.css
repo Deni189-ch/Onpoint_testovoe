@@ -1,0 +1,18 @@
+.wrapper {
+    position: absolute;
+    z-index: 5;
+    max-height: 100px;
+    right: 5vw;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.indikatorY {
+    margin: 10px 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}

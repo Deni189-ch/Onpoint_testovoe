@@ -1,0 +1,87 @@
+.wrapper {
+    position: absolute;
+    bottom: 20px;
+    left: 32%;
+    right: 32%;
+    z-index: 3;
+}
+
+.range {
+    -webkit-appearance: none;
+    background: rgba(255, 255, 255, 0.25);
+    width: 100%;
+    height: 15px;
+    outline: none;
+    position: absolute;
+    bottom: 42px;
+}
+
+.range::-webkit-slider-thumb {
+    appearance: none;
+    background: url("../../Images/crystal.png") center center / contain no-repeat;
+    height: 45px;
+    width: 40px;
+    transform: scale(1.3);
+    cursor: pointer;
+  }
+
+.years {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.years__item {
+    color: white;
+    font-size: 22px;
+}
+
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.film__item_slid:nth-child(1){*/
+/*    background-color: #4169e152;*/
+/*}*/
+/*.film__item_slid:nth-child(2) {*/
+/*    background-color: blueviolet;*/
+/*}*/
+/*.film__item_slid:nth-child(3) {*/
+/*    background-color: coral;*/
+/*}*/
+
+/*.film-arrow{*/
+/*    width: 15%;*/
+/*    background-color:#4169e152;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.film-arrow--left{*/
+/*    left: 0;*/
+/*}*/
+
+/*.film-arrow--right{*/
+/*    right: 0;*/
+/*}*/
+

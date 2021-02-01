@@ -1,0 +1,38 @@
+.filmX__lenta {
+    display: flex;
+    width: 300%;
+    height: 100vh;
+    position: relative;
+    transition: 0.8s;
+}
+
+.filmX__item {
+    flex: 1;
+    width: 100%;
+    height: 100vh;
+    background: url("../Images/slide3X_1.png") center center / contain no-repeat;
+}
+
+.filmX__item:nth-child(2) {
+    background: url("../Images/slide3X_2.png") center center / contain no-repeat;
+}
+
+.filmX__item:nth-child(3) {
+    background: url("../Images/slide3X_3.png") center center / contain no-repeat;
+}
+
+.wrapper__inputRenge {
+    height: 80px;
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+}
+
+.inputRenge {
+    position: absolute;
+    bottom: 30px;
+    left: 0%;
+    right: 0;
+    margin: 0 auto;
+}

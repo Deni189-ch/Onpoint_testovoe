@@ -1,5 +1,4 @@
 import React from "react";
-import './App.css';
 import Slide from "./components/Slide/Slide";
 
 const App = () => {
